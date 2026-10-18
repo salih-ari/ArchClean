@@ -1,0 +1,9 @@
+[Desktop Entry]
+Name=ArchClean
+Comment=Modern system cleaner for Arch Linux
+Exec=archclean
+Icon=archclean
+Type=Application
+Categories=System;Utility;
+Terminal=false
+StartupNotify=true

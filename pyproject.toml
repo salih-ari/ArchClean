@@ -1,0 +1,16 @@
+[build-system]
+requires = ["setuptools>=61.0"]
+build-backend = "setuptools.build_meta"
+
+[project]
+name = "archclean"
+version = "0.1.0"
+description = "A modern Arch Linux system cleaner"
+readme = "README.md"
+requires-python = ">=3.10"
+dependencies = [
+    "PyGObject",
+]
+
+[project.scripts]
+archclean = "archclean.main:main"
