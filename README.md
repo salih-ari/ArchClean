@@ -61,7 +61,7 @@ sudo pacman -S python-pipx
 Clone the repository and install ArchClean:
 
 ```bash
-git clone https://github.com/salih_ari/ArchClean.git
+git clone https://github.com/salih-ari/ArchClean.git
 cd ArchClean
 pipx install --system-site-packages .
 ```
@@ -75,7 +75,7 @@ archclean
 ### Option 2: Build with PKGBUILD
 
 ```bash
-git clone https://github.com/salih_ari/ArchClean.git
+git clone https://github.com/salih-ari/ArchClean.git
 cd ArchClean
 makepkg -si
 ```
@@ -83,7 +83,7 @@ makepkg -si
 ### Option 3: Run from source
 
 ```bash
-git clone https://github.com/salih_ari/ArchClean.git
+git clone https://github.com/salih-ari/ArchClean.git
 cd ArchClean
 PYTHONPATH=. python -m archclean.main
 ```
